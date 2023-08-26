@@ -30,7 +30,7 @@ namespace edomizil_functions
             
             var year = int.Parse(parts[1].Substring(0, 4));
             var month = int.Parse(parts[1].Substring(4, 2));
-            var day = int.Parse(parts[1].Substring(6,2));
+            var day = int.Parse(parts[1].Substring(6, 2));
             
             return new DateTime(year, month, day);
         }
