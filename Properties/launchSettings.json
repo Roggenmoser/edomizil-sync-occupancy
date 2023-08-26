@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "edomizil_sync_occupancy": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7072",
+      "launchBrowser": false
+    }
+  }
+}
